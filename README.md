@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Woovi Challenge
 
-## Getting Started
+Challenge | Technologies | App 
 
-First, run the development server:
+This project is a Front-end Challenge from Woovi, a Startup that provides instant payment solutions for merchants to accept orders.
+
+The Challenge consists in reproduce 3 app screens provided by Woovi with the Figma design.
+
+Prerequisites
+[ ] React
+[ ] Mobile First
+[ ] you can use an UI lib. We prefer the MUI because is the one we use inside Woovi
+[ ] Think in all edges cases
 
 ```bash
 npm run dev

@@ -5,12 +5,14 @@ export default function InfosPay(
     {
         quantInstallments, 
         value, 
-        total
+        total,
+        cardPay,
     }: 
     {
         quantInstallments: number;
         value: number;
         total: number;
+        cardPay?: boolean;
     }
 
 ) {
@@ -51,7 +53,7 @@ export default function InfosPay(
     return (
         <div className="w-full my-1 text-center">
             <Warn title={"Prazo de pagamento: "} text={textDeadline} />
-            <InfosInst  quantInstallments={quantInstallments} value={value} />
+            <InfosInst cardPay={cardPay} quantInstallments={quantInstallments} value={value} />
             <Total pLeft={"CET: 0,32%"} pRight={`Total: R$ ${totalStr}`} />
             {/* don't know why the error in number */}
             <Total bold pLeft={"Como funciona?"} pRight={arrowImg} />

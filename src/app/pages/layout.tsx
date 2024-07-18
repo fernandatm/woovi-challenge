@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     />
                 </div>
                 {children}
-                <div className="flex items-center justify-center gap-2  w-full my-8 mx-auto">
+                <div className="flex items-start justify-center gap-1  w-full my-8 mx-auto">
                     <Image
                         className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                         src="/security.png"
@@ -32,7 +32,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                         src="/Logo.png"
                         alt="Next.js Logo"
                         width={57}
-                        height={16}
+                        height={17}
                         priority
                     />
                 </div>
